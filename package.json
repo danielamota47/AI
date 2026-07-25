@@ -1,0 +1,17 @@
+{
+  "name": "ai-documents-backend",
+  "version": "1.0.0",
+  "description": "Backend simples para ligar o site AI Documents à API da Anthropic",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
